@@ -2,9 +2,15 @@
 
 const int TRUE = (int) 1;
 const int FALSE = (int) 0;
+float sum=0.0;
+float diff=0.0;
+float product=0.0;
+float quotient=0.0;
+float number1=1.0;
+float number2=1.0;
 
 void add(float *number1, float *number2)
-{
+{   
 	sum = *number1 + *number2;
 }
 
