@@ -56,7 +56,7 @@ if !EMUL_BUILD!==TRUE (
                         echo *****************************************
 
                         @REM -D will help in setting variable to cmake and we can use such variable in CMakeLists.txt file 
-                        cmake -S %~dp0 -B %~dp0\out\emul -D BUILD_TYPE_CONFIG=EMULATOR_BUILD
+                        cmake -S %~dp0 -B %~dp0\out\emul -D BUILD_TYPE_CONFIG=EMULATOR_BUILD -DCMAKE_BUILD_TYPE=Debug
 
                         echo *****************************************
                         echo Installing the build image
